@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+}
+
+.nav_center{
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav_inline{
+    display: inline-flex;
+    width: 90%;
+    padding: 15px 5%;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+    margin-left: 70px;
+}
+.list li a:hover{
+    color: gold;
+}
+.list li{
+    position: relative;
+}
+.text{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 20px;
+    opacity: 0;
+    z-index: 1;
+    padding: 5px;
+    transition: 1s;
+}
+.list :hover .text{
+    opacity: 1;
+}
+.nav_inline h1{
+    margin: 0;
+    color: white;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 0 30px;
+    border-radius: 20%;
+    box-shadow: 0 0 2px white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.banner{
+    background:url(https://www.gvme.org/pages/get_image_large.php?id=1473) center / cover ;
+    width: 100%;
+    height: 100vh;
+    margin-top: 67px;
+    border-radius: 50%;
+}
+.banner h1{
+    margin: 0;
+    text-align: left;
+    font-size: 70px;
+    padding: 100px 11%;
+    color: white;
+}
+span{
+    color: gold;
+}
+
+
+.card_center{
+    width: 85%;
+    margin: 0px auto;
+}
+.card_inline{
+    display: inline-flex;
+    margin-left: 50px;
+}
+.card_inline div{
+    width: 300px;
+    height: 300px  ;
+    margin: 0 100px;
+}
+.card{
+    background: url(http://o902258v.beget.tech/sublime/img/features/features-3.jpg) center / cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+.card2{
+    margin-top: 140px;
+    margin-left: 200px;
+    background: url(http://o902258v.beget.tech/sublime/img/features/features-5.jpg) center / cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    width: 700px;
+    height: 500px;
+}
+
+.card_absolute{
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding-top: 15px;
+    padding: 0 5%;
+    transition: 1s;
+}
+.card_absolute:hover{
+    top: 0;
+    left: -100px;
+    width: 90%;
+}
+.card_absolute1{
+    width: 60%;
+    height: 50%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    padding-top: 15px;
+    padding:0 5% ;
+}
+
+.card_absolute2{
+    width: 60%;
+    height: 50%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 130px;
+    right: 400px;
+    padding-top: 15px;
+    padding:0 5% ;
+}
+.about h1{
+    padding: 0 5%;
+    padding-top: 100px;
+}
+
+span1{
+    font-size: 50px;
+}
+
+
+
+.footer{
+    width: 86%;
+    padding: 10px 7%;
+    background-color: cadetblue;
+    margin-top: 170px;
+}
+
+.block p{
+    display: inline-flex;
+    margin: 0 60px;
+}
+hr{
+    margin-right: 60%;
+}
+
+.img{
+    margin-top: 30px;
+}
+
+.img img{
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5%;
+}
+
+
+@media screen and (max-width:1024px){
+    .footer{
+        width: 100%;
+    }
+    .banner{
+        padding-left: 140px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer{
+        width: 150%;
+    }
+    .banner{
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .footer{
+        width: 270%;
+    }
+    .banner{
+        width: 150%;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:375px){
+    .footer{
+        width: 300%;
+    }
+    .banner{
+        margin-left: 250px;
+    }
+}
